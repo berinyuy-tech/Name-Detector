@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+    mypython:
+        build: ./
+        command: python detector.py
